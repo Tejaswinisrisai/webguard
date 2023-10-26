@@ -1,24 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
+import MultiCards from './Components/Multicards/MultiCards';
+import Navbar from './Components/Navbar/Navbar';
+import Herocontent from './Components/Herocontent/Herocontent';
+import bgv from "./Images/earth.mp4";
+import Secondsec from './Components/Secondsec/Secondsec';
+import Thirdsec from './Components/Thirdsec/Thirdsec';
+import Foursec from './Foursec/Foursec';
+import Fivesec from './Components/Fivesec/Fivesec';
+import CompanyLogo from './Components/Companylogossec/CompanyLogo';
+import Sixsec from './Components/Sixsec/Sixsec'
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <Navbar />
+      <div >
+        <Herocontent />
+        <MultiCards />
+        <Secondsec />
+        <Thirdsec />
+        <Foursec />
+        <Fivesec />
+        <CompanyLogo />
+        <Sixsec />
+        <Footer />
+      </div>
+    </>
   );
 }
 

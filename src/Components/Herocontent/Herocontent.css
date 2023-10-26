@@ -1,0 +1,78 @@
+.txtContent {
+  text-align: center;
+  margin-bottom: 5rem;
+  padding: 0 3rem;
+}
+
+.txtContent h1 {
+  font-size: 4rem;
+  margin-bottom: 0px;
+  text-align: center;
+  @media (max-width: 768px) {
+    font-size: 2.6rem;
+  }
+  @media (max-width: 280px) {
+    font-size: 1.5rem;
+  }
+}
+
+.txtContent p {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #818181;
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+  }
+  @media (max-width: 280px) {
+    font-size: 1rem;
+  }
+}
+
+.trybtn {
+  background-color: green;
+  border-radius: 50px;
+  color: white;
+  margin: 0.5rem 0.5rem;
+  width: 15rem;
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+}
+
+.trybtn:hover {
+  cursor: pointer;
+  background-color: rgb(2, 162, 2);
+}
+
+.whitebtn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  width: 10rem;
+}
+
+.whitebtn:hover {
+  cursor: pointer;
+  background-color: rgb(2, 162, 2);
+  color: white;
+}
+
+.buttonstl {
+  margin: 1rem;
+  padding: 2rem 0 0 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* @media (max-width: 1090px) { */
+  @media (max-width: 768px) {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}

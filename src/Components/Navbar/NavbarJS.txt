@@ -1,0 +1,28 @@
+import React from 'react'
+import './Navbar.css';
+import logo from "../../Images/w-logo.png";
+
+const Navbar = () => {
+  return (
+    <div className='navbar'>
+      <div className='dFlexWithRowDirection'>
+        <img src={logo} alt='logo' className="logoStyle" />
+        <h2>WebGuard</h2>
+      </div>
+      <div>
+        <ul className='dFlexWithRowDirection'>
+          <li>Pricing</li>
+          <li>Resources</li>
+          <li>Supports</li>
+          <li>Partners</li>
+        </ul>
+      </div>
+      <div className='dFlexWithRowDirection'>
+        <p>Login</p>
+        <button className='signInBut'>Sign Up</button>
+      </div>
+    </div>
+  )
+}
+
+export default Navbar

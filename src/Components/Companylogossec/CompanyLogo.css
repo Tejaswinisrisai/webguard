@@ -1,0 +1,25 @@
+.companylogosdiv {
+  padding: 4rem;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  /* width: 55%; */
+  flex-wrap: wrap;
+  /* @media (max-width: 800px) {
+    width: 85%;
+  } */
+}
+
+.cmpnylogo {
+  filter: grayscale(1);
+  width: 12rem;
+  height: 8rem;
+  opacity: 0.3;
+  padding: 0.5rem;
+  object-fit: scale-down;
+  margin: auto;
+
+  @media (max-width: 414px) {
+    width: 5rem;
+  }
+}

@@ -1,0 +1,45 @@
+.card {
+  width: 18rem;
+  height: 20rem;
+  /* border: 1.2px solid grey; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  /* background-color: wheat; */
+  margin: -1rem;
+  box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
+  @media (max-width: 280px) {
+    width: 11rem;
+    margin-right: 4rem;
+    height: 11rem;
+  }
+}
+
+.multicrdimg {
+  border-radius: 10px;
+}
+.cardsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+
+  @media (width: 280px) {
+    margin-left: 5rem;
+  }
+}
+
+.c1 {
+  transform: rotate(7deg);
+  /* margin-left: .5rem; */
+  background-color: white;
+}
+.c2 {
+  transform: rotate(353deg);
+}
+.c3 {
+}

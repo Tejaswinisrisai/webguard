@@ -1,0 +1,112 @@
+.FiveSec {
+  margin-top: 2rem;
+  padding: 0 6rem;
+  @media (max-width: 912px) {
+    padding: 0 1rem;
+  }
+}
+
+.divssec {
+  margin-top: 5rem;
+  /* display: inline-block; */
+  position: relative;
+}
+
+.xyz {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  background-color: #209e20;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 5px #40b640;
+}
+.abc {
+  height: 100%;
+  width: 100%;
+  rotate: -2deg;
+  background-color: #bef5be;
+  display: inline-block;
+  position: absolute;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 5px rgb(132, 208, 132);
+}
+
+.def {
+  height: 100%;
+  width: 100%;
+  rotate: 2deg;
+  display: inline-block;
+  background-color: #8dda8d;
+  position: absolute;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 5px rgb(95, 195, 95);
+}
+
+.testitxtp1 {
+  margin-bottom: 0;
+}
+
+.testitxtp2 {
+  margin-top: 0.3rem;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.testimonitxt {
+  color: white;
+  width: 80%;
+  font-size: 2rem;
+  padding-left: 2rem;
+  @media (max-width: 280px) {
+    font-size: large;
+  }
+}
+
+.fiveseccontent {
+  margin: 2rem;
+}
+
+hr {
+  margin: 1.5rem;
+}
+.userwhitelogo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.testitxt {
+  color: white;
+  margin-left: 0.5rem;
+  @media (max-width: 280px) {
+    font-size: small;
+  }
+}
+
+.FiveSecheadtxt h2 {
+  font-size: 3.6rem;
+  margin-bottom: 0px;
+  /* text-align: center; */
+  @media (max-width: 768px) {
+    font-size: 2.6rem;
+  }
+  @media (max-width: 280px) {
+    font-size: 1.5rem;
+  }
+}
+.FiveSecheadtxt p {
+  /* text-align: center; */
+  font-size: 1.4rem;
+  color: #818181;
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+  }
+  @media (max-width: 280px) {
+    font-size: 1rem;
+  }
+}
